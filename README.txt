@@ -1,6 +1,9 @@
 README for Garnet2.0
 Written By: Tushar Krishna (tushar@ece.gatech.edu)
 Last Updated: Jul 9, 2016
+Scheduled bufferless NoC
+Written by Chen Chen
+Last Update: Nov 20, 2019
 -------------------------------------------------------
 
 Garnet Network Parameters and Setup:
@@ -68,6 +71,7 @@ CODE FLOW
     * The consuming flit output link of the router is put in the global event queue with a timestamp set to next cycle.
       The eventqueue calls the wakeup function in the consumer.
 
+Scheduled bufferless NoC note by Chen Chen:
 
 -sim/clock_object.hh
     *add wave and wave number to implement TDM function
